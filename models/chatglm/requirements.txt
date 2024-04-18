@@ -2,3 +2,4 @@ protobuf==3.19.5
 transformers==4.26.1
 icetk
 cpm_kernels
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
